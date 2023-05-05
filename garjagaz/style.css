@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #658cb3;
+}
+
+
+.mycanvas {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    perspective: 500;
+    -webkit-perspective: 500;
+
+}
+
+.container {
+    height: 350px;
+    transform-style: preserve-3d;
+    animation: spin 2.8s forwards linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotateZ(360deg);
+    }
+
+
+}
+
+.snow {
+    background-color: #fff;
+    height: 175px;
+    width: 10px;
+    position: relative;
+
+}
+
+.a {
+    left: 170px;
+}
+
+.s1,
+.s2 {
+    background-color: #fff;
+    height: 40px;
+    width: 10px;
+    position: relative;
+}
+
+.s1 {
+    transform: rotate(45deg);
+    top: 5px;
+    left: 15px;
+}
+
+.s2 {
+    transform: rotate(-45deg);
+    right: 15px;
+    bottom: 36px;
+}
+
+
+.s3,
+.s4 {
+    background-color: #fff;
+    height: 75px;
+    width: 10px;
+    position: relative;
+}
+
+.s3 {
+    transform: rotate(45deg);
+    top: 10px;
+    left: 25px;
+}
+
+.s4 {
+    transform: rotate(-45deg);
+    right: 25px;
+    bottom: 85px;
+}
+
+.b {
+    transform: rotate(60deg);
+    bottom: 131px;
+    left: 247px;
+}
+
+.c {
+    bottom: 220px;
+    transform: rotate(120deg);
+    left: 246px;
+}
+
+.d {
+    bottom: 350px;
+    transform: rotate(180deg);
+    left: 170px;
+}
+
+
+.e {
+    bottom: 569px;
+    transform: rotate(240deg);
+    left: 95px;
+}
+
+.f {
+    bottom: 832px;
+    transform: rotate(300deg);
+    left: 95px;
+}

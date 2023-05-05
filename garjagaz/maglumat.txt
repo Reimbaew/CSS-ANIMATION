@@ -1,0 +1,4 @@
+Salam hormatly müşderiler.
+Bu gün biz siz bilen garjagazyň hereketini döredeliň HTML CSS üsti bilen.
+Ilki başda bular üçin biz 
+--- inde.html döredeliň hemde CSS faýylyny döredeliň.
